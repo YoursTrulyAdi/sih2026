@@ -14,11 +14,15 @@ import { TimelinePoint } from '@/types/project';
 interface ProgressLineChartProps {
   timelineData: TimelinePoint[];
   height?: number;
+  currentProgress?: number;
+  plannedProgress?: number;
 }
 
 export default function ProgressLineChart({
   timelineData,
   height = 340,
+  currentProgress,
+  plannedProgress,
 }: ProgressLineChartProps) {
   const [isMounted, setIsMounted] = useState(false);
 

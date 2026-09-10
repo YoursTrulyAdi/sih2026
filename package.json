@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@better-auth/infra": "^0.4.9",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@types/three": "^0.185.4",
+    "better-auth": "^1.7.3",
     "clsx": "^2.1.1",
+    "framer-motion": "^13.2.0",
     "lucide-react": "^0.475.0",
     "next": "^14.2.24",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "recharts": "^2.15.1",
-    "tailwind-merge": "^2.6.0"
+    "tailwind-merge": "^2.6.0",
+    "three": "^0.186.0"
   },
   "devDependencies": {
     "@types/node": "^20.17.19",
@@ -27,4 +34,3 @@
     "typescript": "^5.7.3"
   }
 }
-
